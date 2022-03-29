@@ -1,0 +1,68 @@
+@media only screen and (max-width: 991px) {
+	.menu ul {
+		display: none;
+		background: #333;
+	}
+	.mobile_menu a {
+		display: block !important;
+	}
+	.menu ul li {
+		display: inherit;
+		text-align: center;
+	}
+	.menu ul li a {
+		margin: 0px 20px;
+		padding: 5px 0px;
+	}
+	.section_headding_full p {
+		width: 100%;
+	}
+	.about_us_single {
+		margin-bottom: 20px;
+	}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+	.Header_banner_text h1 {
+		font-size: 80px;
+	}
+	.section_headding_full h2 {
+		font-size: 26px;
+		padding-top: 5px;
+		padding-bottom: 12px;
+		margin-bottom: 12px;
+	}
+}
+
+
+@media only screen and (max-width: 667px) {
+	.Header_banner_text h1 {
+		font-size: 60px;
+	}
+	.Header_banner_text h3 {
+		font-size: 40px;
+	}
+	.Header_banner_text {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	.about_us {
+		padding: 30px;
+	}
+	.row.mt-100 {
+		margin-top: 40px;
+	}
+}
+
+
+@media only screen and (max-width: 500px) {}
+@media only screen and (max-width: 400px) {
+	.Header_banner_text h1 {
+		font-size: 40px;
+	}
+	.Header_banner_text h3 {
+		font-size: 30px;
+	}
+}
